@@ -1,5 +1,3 @@
-# everythingWS
-
 The main branch is projects : 
 
 ### List of WebSites(WS) :
