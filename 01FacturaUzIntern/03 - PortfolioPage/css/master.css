@@ -1,0 +1,303 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+}
+
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+}
+.header__link {
+	font-weight:700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #828282;
+	padding: 33px 0;
+	transition: all .5s;
+}
+
+.header__link:hover {
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+	padding: 33px 0;
+}
+
+.line-of-header {
+	width: 100%;
+	height: 3px;
+	background: #828282;
+}
+
+.header-bottom {
+	padding-top: 40px;
+}
+
+.header-bottom__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+}
+
+.header-bottom__title {
+	font-weight:700;
+	font-size: 47.3392px;
+	line-height: 59px;
+	color: #070707;
+}
+.header-bottom__subtitle {
+	font-weight:400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+}
+.header-bottom__language {
+	transform: translateY(-123%) rotate(-90deg);
+}
+
+.header-bottom__big-img {
+	padding-top: 56px;
+	padding-bottom: 105px;
+}
+
+.about-man {
+
+	background: #F6F6F6;
+}
+
+.about-man__inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	padding-top: 120px;
+	padding-bottom: 110px;
+}
+
+.about-man__title {
+	font-size: 34px;
+	line-height: 42px;
+	color: #070707;
+	margin-bottom: 20px;
+}
+
+.about-man__subtitle {
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+}
+
+.about-man__subtitle {
+	margin-bottom: 30px;
+	width: 485px;
+	text-align: center;
+}
+
+.skills {
+	padding: 110px 0;
+}
+
+.skills__inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+
+.skills__title {
+	font-size: 34px;
+	line-height: 42px;
+	color: #070707;
+	margin-bottom: 70px;
+}
+
+.skills__subtitle {
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+	margin-bottom: 100px;
+}
+
+.skills__blocks {
+	display: flex;
+}
+
+.skills__block {
+	min-width: 166.46px;
+	min-height: 206.29px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0 30px;
+}
+
+.skills__icon {
+	margin-bottom: 23px;	
+}
+
+.skills__name {
+	max-width: 71px;
+	text-align: center;
+	margin-bottom: 42px;
+}
+
+.skills__name-basic {
+	max-width: 80px;
+	text-align: center;
+	margin-bottom: 42px;
+}
+
+.white {
+	color: #fff;
+}
+
+.skills__mark img {
+	margin: 0 5px;
+}
+
+.portfolio {
+	padding: 112px 0 0 0;
+	background: #F6F6F6;
+}
+
+.portfolio__inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+
+.portfolio__title {
+	font-size: 34px;
+	line-height: 42px;
+	color: #070707;
+	margin-bottom: 70px;
+}
+
+.portfolio__work {
+	margin-bottom: 100px;
+}
+
+.portfolio__work img {
+	margin-bottom:45px;
+}
+
+.portfolio__work {
+	text-align: center;
+}
+
+.portfolio__work a {
+	text-decoration:underline;
+	color: #070707;
+	transition:all .5s;
+}
+
+.portfolio__work a:hover {
+	text-decoration:underline;
+	color: #191919;
+}
+
+.contacts {
+	padding: 115px 0 100px 0;
+}
+
+.contacts__inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+
+.contacts__title {
+	font-size: 34px;
+	line-height: 42px;
+	color: #070707;
+	margin-bottom: 45px;
+}
+
+.contacts__subtitle {
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+	margin-bottom: 45px;
+}
+
+.contacts__link {
+	padding: 19px 44px;
+	background: #070707;
+	border-radius:15%;
+	color: #fff;
+	transition:all .5s;
+}
+
+.contacts__link:hover {
+	padding: 19px 44px;
+	background: #070707;
+	border-radius:15%;
+	color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.footer {
+	padding: 0 0 100px 0;
+}
+
+.footer__icons {
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.footer__icon {
+	margin: 10px 30px;
+}
+
+.footer__links {
+	text-align: center;
+	color: #828282;
+}
+
+.burger {
+	display: none;
+}
+
+@media (max-width: 975px) {
+	.burger {
+		display:block;
+		width: 100%;
+		text-align:end;
+		padding:25px;
+	}
+
+	.header__link {
+		display: none
+	}
+
+	.line-of-header {
+		display: none
+	}
+
+	.header-bottom__language {
+		display: none
+	}
+
+	.header-bottom__inner {
+		display: block;
+		padding-left: 30px
+	}
+
+	.about-man__inner {
+	}
+}

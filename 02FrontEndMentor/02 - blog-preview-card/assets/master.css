@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Figtree', sans-serif;
+	color: #111111;
+}
+
+body {
+	height: 100vh;
+	background: #f4d04e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.post {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	border-radius: 20px;
+	border: 1px solid #111111;
+	padding: 24px;
+	box-shadow: 8px 8px 0px #000;
+}
+
+.image {
+	margin-bottom: 24px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.tag {
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: 800;
+	padding: 4px 12px;
+	background: #f4d04e;
+	border-radius: 4px;
+	margin-bottom: 4px;
+}
+
+.date {
+	margin: 12px 0;
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: 500;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	flex-wrap: wrap;
+	white-space: inherit;
+	max-width: 336px;
+}
+
+.title {
+	margin-bottom: 12px;
+	font-size: 24px;
+	line-height: 150%;
+	font-weight: 800;
+}
+
+.decription {
+	color: #6b6b6b;
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 500;
+}
+
+.auth {
+	margin-top: 24px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: 800;
+}
+
+.auth img {
+	width: 32px;
+	height: 32px;
+	margin-right: 12px;
+}
+
+@media screen and (max-width: 425px) {
+	.post {
+		margin: 24px;
+	}
+
+	.image {
+		width: 279px;
+		height: auto;
+	}
+
+	.tag {
+		font-size: 12px;
+	}
+
+	.date {
+		font-size: 12px;
+	}
+
+	.title {
+		font-size: 20px;
+	}
+
+	.description {
+		font-size: 14px;
+	}
+}
